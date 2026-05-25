@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AI Interview Practice</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+  <h1>AI Interview Practice</h1>
+
+  <div class="question-box" id="question">
+    Click "Next Question"
+  </div>
+
+  <textarea
+    id="answer"
+    placeholder="Type your answer here..."
+  ></textarea>
+
+  <div class="buttons">
+    <button class="next-btn" onclick="nextQuestion()">
+      Next Question
+    </button>
+
+    <button class="check-btn" onclick="checkAnswer()">
+      Check Answer
+    </button>
+  </div>
+
+  <div class="result" id="result">
+    Feedback will appear here...
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
+<button onclick="startVoice()">
+🎤 Speak
+</button>
+<button onclick="toggleMode()">
+Mode
+</button>
